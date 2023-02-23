@@ -10,7 +10,7 @@ function Navbar() {
   const [isOpen, setOpen] = useState(false);
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY >= 820 && window.innerWidth > 767) {
+    if (window.scrollY >= 700 && window.innerWidth > 767) {
       setColorchange(true);
     } else {
       setColorchange(false);
